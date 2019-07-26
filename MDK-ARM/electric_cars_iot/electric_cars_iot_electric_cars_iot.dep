@@ -1,0 +1,1740 @@
+Dependencies for Project 'electric_cars_iot', Target 'electric_cars_iot': (DO NOT MODIFY !)
+F (../Src/stm32f0xx_it.c)(0x5D3016F2)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\stm32f0xx_it.o --omf_browse electric_cars_iot\stm32f0xx_it.crf --depend electric_cars_iot\stm32f0xx_it.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A5F0D46)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5B56E035)
+I (../Inc/main.h)(0x5B56E036)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030xc.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5A5F0D46)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5A5F0D45)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_iwdg.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5A5F0D46)
+I (../Inc/stm32f0xx_it.h)(0x5B56E034)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x5A5F0D47)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Inc/FreeRTOSConfig.h)(0x5B56E034)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0/portmacro.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x5A5F0D47)
+I (..\HARDWARE\IoT_Hub\IoT_Hub.h)(0x5D2E9EAF)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\HARDWARE\USART\usart.h)(0x5D2E9FDD)
+F (../Src/freertos.c)(0x5B56E034)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\freertos.o --omf_browse electric_cars_iot\freertos.crf --depend electric_cars_iot\freertos.d)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x5A5F0D47)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Inc/FreeRTOSConfig.h)(0x5B56E034)
+I (../Inc/main.h)(0x5B56E036)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0/portmacro.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x5A5F0D47)
+F (../Src/main.c)(0x5D382121)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\main.o --omf_browse electric_cars_iot\main.crf --depend electric_cars_iot\main.d)
+I (../Inc/main.h)(0x5B56E036)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A5F0D46)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5B56E035)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030xc.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5A5F0D46)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5A5F0D45)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_iwdg.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5A5F0D46)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x5A5F0D47)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Inc/FreeRTOSConfig.h)(0x5B56E034)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0/portmacro.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x5A5F0D47)
+I (..\HARDWARE\USART\usart.h)(0x5D2E9FDD)
+I (..\HARDWARE\IoT_Hub\Iot_Hub.h)(0x5D2E9EAF)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\PROTOCAL\protocol.h)(0x5D302666)
+I (..\HARDWARE\ADC\adc.h)(0x5C8092DB)
+I (..\HARDWARE\EXTI\exti.h)(0x5CABF9FF)
+I (..\HARDWARE\VOICE\voice.h)(0x5CC7BD65)
+I (..\HARDWARE\GPIO\gpio.h)(0x5D2D666C)
+I (..\HARDWARE\flash\flash.h)(0x5C9DE991)
+I (..\BLUETOOTH\bt_app.h)(0x5C74E807)
+I (..\HARDWARE\queen\queen.h)(0x5D2EA027)
+I (..\CONTROL\control_app.h)(0x5CEB9FFA)
+I (..\CONTROL\Control_interface.h)(0x5B3DB724)
+F (../Src/stm32f0xx_hal_msp.c)(0x5CDD2DAA)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\stm32f0xx_hal_msp.o --omf_browse electric_cars_iot\stm32f0xx_hal_msp.crf --depend electric_cars_iot\stm32f0xx_hal_msp.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A5F0D46)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5B56E035)
+I (../Inc/main.h)(0x5B56E036)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030xc.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5A5F0D46)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5A5F0D45)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_iwdg.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5A5F0D46)
+F (../Src/stm32f0xx_hal_timebase_TIM.c)(0x5B56E035)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\stm32f0xx_hal_timebase_tim.o --omf_browse electric_cars_iot\stm32f0xx_hal_timebase_tim.crf --depend electric_cars_iot\stm32f0xx_hal_timebase_tim.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A5F0D46)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5B56E035)
+I (../Inc/main.h)(0x5B56E036)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030xc.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5A5F0D46)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5A5F0D45)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_iwdg.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5A5F0D46)
+F (startup_stm32f030xc.s)(0x5B56E039)(--cpu Cortex-M0 -g --apcs=interwork --pd "__MICROLIB SETA 1" -I ..\Inc -I ..\\Inc-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include--pd "__UVISION_VERSION SETA 524" --pd "_RTE_ SETA 1" --pd "STM32F030xC SETA 1"--list startup_stm32f030xc.lst --xref -o electric_cars_iot\startup_stm32f030xc.o --depend electric_cars_iot\startup_stm32f030xc.d)
+F (../Middlewares/Third_Party/FreeRTOS/Source/croutine.c)(0x5A5F0D47)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\croutine.o --omf_browse electric_cars_iot\croutine.crf --depend electric_cars_iot\croutine.d)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x5A5F0D47)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Inc/FreeRTOSConfig.h)(0x5B56E034)
+I (../Inc/main.h)(0x5B56E036)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0/portmacro.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h)(0x5A5F0D47)
+F (../Middlewares/Third_Party/FreeRTOS/Source/tasks.c)(0x5A5F0D47)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\tasks.o --omf_browse electric_cars_iot\tasks.crf --depend electric_cars_iot\tasks.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x5A5F0D47)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Inc/FreeRTOSConfig.h)(0x5B56E034)
+I (../Inc/main.h)(0x5B56E036)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0/portmacro.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h)(0x5A5F0D47)
+F (../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c)(0x5A5F0D47)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\event_groups.o --omf_browse electric_cars_iot\event_groups.crf --depend electric_cars_iot\event_groups.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x5A5F0D47)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Inc/FreeRTOSConfig.h)(0x5B56E034)
+I (../Inc/main.h)(0x5B56E036)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0/portmacro.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x5A5F0D47)
+F (../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c)(0x5A5F0D47)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\heap_4.o --omf_browse electric_cars_iot\heap_4.crf --depend electric_cars_iot\heap_4.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x5A5F0D47)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Inc/FreeRTOSConfig.h)(0x5B56E034)
+I (../Inc/main.h)(0x5B56E036)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0/portmacro.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x5A5F0D47)
+F (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0/port.c)(0x5A5F0D47)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\port.o --omf_browse electric_cars_iot\port.crf --depend electric_cars_iot\port.d)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x5A5F0D47)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Inc/FreeRTOSConfig.h)(0x5B56E034)
+I (../Inc/main.h)(0x5B56E036)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0/portmacro.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x5A5F0D47)
+F (../Middlewares/Third_Party/FreeRTOS/Source/list.c)(0x5A5F0D47)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\list.o --omf_browse electric_cars_iot\list.crf --depend electric_cars_iot\list.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x5A5F0D47)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Inc/FreeRTOSConfig.h)(0x5B56E034)
+I (../Inc/main.h)(0x5B56E036)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0/portmacro.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x5A5F0D47)
+F (../Middlewares/Third_Party/FreeRTOS/Source/queue.c)(0x5A5F0D47)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\queue.o --omf_browse electric_cars_iot\queue.crf --depend electric_cars_iot\queue.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x5A5F0D47)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Inc/FreeRTOSConfig.h)(0x5B56E034)
+I (../Inc/main.h)(0x5B56E036)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0/portmacro.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x5A5F0D47)
+F (../Middlewares/Third_Party/FreeRTOS/Source/timers.c)(0x5A5F0D47)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\timers.o --omf_browse electric_cars_iot\timers.crf --depend electric_cars_iot\timers.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x5A5F0D47)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Inc/FreeRTOSConfig.h)(0x5B56E034)
+I (../Inc/main.h)(0x5B56E036)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0/portmacro.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x5A5F0D47)
+F (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c)(0x5A5F0D47)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\cmsis_os.o --omf_browse electric_cars_iot\cmsis_os.crf --depend electric_cars_iot\cmsis_os.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x5A5F0D47)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Inc/FreeRTOSConfig.h)(0x5B56E034)
+I (../Inc/main.h)(0x5B56E036)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0/portmacro.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x5A5F0D47)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x5A5F0D47)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5A5F0D46)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c)(0x5A5F0D46)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\stm32f0xx_hal_rcc.o --omf_browse electric_cars_iot\stm32f0xx_hal_rcc.crf --depend electric_cars_iot\stm32f0xx_hal_rcc.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A5F0D46)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5B56E035)
+I (../Inc/main.h)(0x5B56E036)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030xc.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5A5F0D46)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5A5F0D45)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_iwdg.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5A5F0D46)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c)(0x5A5F0D46)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\stm32f0xx_hal_gpio.o --omf_browse electric_cars_iot\stm32f0xx_hal_gpio.crf --depend electric_cars_iot\stm32f0xx_hal_gpio.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A5F0D46)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5B56E035)
+I (../Inc/main.h)(0x5B56E036)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030xc.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5A5F0D46)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5A5F0D45)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_iwdg.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5A5F0D46)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c)(0x5A5F0D46)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\stm32f0xx_hal_pwr.o --omf_browse electric_cars_iot\stm32f0xx_hal_pwr.crf --depend electric_cars_iot\stm32f0xx_hal_pwr.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A5F0D46)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5B56E035)
+I (../Inc/main.h)(0x5B56E036)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030xc.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5A5F0D46)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5A5F0D45)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_iwdg.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5A5F0D46)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c)(0x5A5F0D46)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\stm32f0xx_hal_tim_ex.o --omf_browse electric_cars_iot\stm32f0xx_hal_tim_ex.crf --depend electric_cars_iot\stm32f0xx_hal_tim_ex.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A5F0D46)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5B56E035)
+I (../Inc/main.h)(0x5B56E036)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030xc.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5A5F0D46)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5A5F0D45)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_iwdg.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5A5F0D46)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c)(0x5A5F0D46)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\stm32f0xx_hal_rcc_ex.o --omf_browse electric_cars_iot\stm32f0xx_hal_rcc_ex.crf --depend electric_cars_iot\stm32f0xx_hal_rcc_ex.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A5F0D46)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5B56E035)
+I (../Inc/main.h)(0x5B56E036)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030xc.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5A5F0D46)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5A5F0D45)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_iwdg.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5A5F0D46)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c)(0x5A5F0D46)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\stm32f0xx_hal_adc.o --omf_browse electric_cars_iot\stm32f0xx_hal_adc.crf --depend electric_cars_iot\stm32f0xx_hal_adc.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A5F0D46)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5B56E035)
+I (../Inc/main.h)(0x5B56E036)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030xc.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5A5F0D46)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5A5F0D45)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_iwdg.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5A5F0D46)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.c)(0x5A5F0D46)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\stm32f0xx_hal_adc_ex.o --omf_browse electric_cars_iot\stm32f0xx_hal_adc_ex.crf --depend electric_cars_iot\stm32f0xx_hal_adc_ex.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A5F0D46)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5B56E035)
+I (../Inc/main.h)(0x5B56E036)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030xc.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5A5F0D46)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5A5F0D45)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_iwdg.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5A5F0D46)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c)(0x5A5F0D46)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\stm32f0xx_hal_tim.o --omf_browse electric_cars_iot\stm32f0xx_hal_tim.crf --depend electric_cars_iot\stm32f0xx_hal_tim.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A5F0D46)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5B56E035)
+I (../Inc/main.h)(0x5B56E036)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030xc.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5A5F0D46)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5A5F0D45)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_iwdg.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5A5F0D46)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c)(0x5A5F0D46)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\stm32f0xx_hal_uart_ex.o --omf_browse electric_cars_iot\stm32f0xx_hal_uart_ex.crf --depend electric_cars_iot\stm32f0xx_hal_uart_ex.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A5F0D46)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5B56E035)
+I (../Inc/main.h)(0x5B56E036)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030xc.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5A5F0D46)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5A5F0D45)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_iwdg.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5A5F0D46)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c)(0x5A5F0D46)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\stm32f0xx_hal.o --omf_browse electric_cars_iot\stm32f0xx_hal.crf --depend electric_cars_iot\stm32f0xx_hal.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A5F0D46)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5B56E035)
+I (../Inc/main.h)(0x5B56E036)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030xc.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5A5F0D46)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5A5F0D45)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_iwdg.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5A5F0D46)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c)(0x5A5F0D46)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\stm32f0xx_hal_flash_ex.o --omf_browse electric_cars_iot\stm32f0xx_hal_flash_ex.crf --depend electric_cars_iot\stm32f0xx_hal_flash_ex.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A5F0D46)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5B56E035)
+I (../Inc/main.h)(0x5B56E036)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030xc.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5A5F0D46)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5A5F0D45)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_iwdg.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5A5F0D46)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c)(0x5A5F0D46)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\stm32f0xx_hal_flash.o --omf_browse electric_cars_iot\stm32f0xx_hal_flash.crf --depend electric_cars_iot\stm32f0xx_hal_flash.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A5F0D46)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5B56E035)
+I (../Inc/main.h)(0x5B56E036)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030xc.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5A5F0D46)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5A5F0D45)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_iwdg.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5A5F0D46)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c)(0x5CDE2783)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\stm32f0xx_hal_uart.o --omf_browse electric_cars_iot\stm32f0xx_hal_uart.crf --depend electric_cars_iot\stm32f0xx_hal_uart.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A5F0D46)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5B56E035)
+I (../Inc/main.h)(0x5B56E036)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030xc.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5A5F0D46)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5A5F0D45)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_iwdg.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5A5F0D46)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c)(0x5A5F0D46)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\stm32f0xx_hal_i2c.o --omf_browse electric_cars_iot\stm32f0xx_hal_i2c.crf --depend electric_cars_iot\stm32f0xx_hal_i2c.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A5F0D46)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5B56E035)
+I (../Inc/main.h)(0x5B56E036)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030xc.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5A5F0D46)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5A5F0D45)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_iwdg.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5A5F0D46)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c)(0x5A5F0D46)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\stm32f0xx_hal_dma.o --omf_browse electric_cars_iot\stm32f0xx_hal_dma.crf --depend electric_cars_iot\stm32f0xx_hal_dma.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A5F0D46)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5B56E035)
+I (../Inc/main.h)(0x5B56E036)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030xc.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5A5F0D46)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5A5F0D45)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_iwdg.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5A5F0D46)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c)(0x5A5F0D46)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\stm32f0xx_hal_i2c_ex.o --omf_browse electric_cars_iot\stm32f0xx_hal_i2c_ex.crf --depend electric_cars_iot\stm32f0xx_hal_i2c_ex.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A5F0D46)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5B56E035)
+I (../Inc/main.h)(0x5B56E036)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030xc.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5A5F0D46)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5A5F0D45)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_iwdg.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5A5F0D46)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c)(0x5A5F0D46)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\stm32f0xx_hal_cortex.o --omf_browse electric_cars_iot\stm32f0xx_hal_cortex.crf --depend electric_cars_iot\stm32f0xx_hal_cortex.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A5F0D46)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5B56E035)
+I (../Inc/main.h)(0x5B56E036)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030xc.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5A5F0D46)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5A5F0D45)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_iwdg.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5A5F0D46)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c)(0x5A5F0D46)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\stm32f0xx_hal_pwr_ex.o --omf_browse electric_cars_iot\stm32f0xx_hal_pwr_ex.crf --depend electric_cars_iot\stm32f0xx_hal_pwr_ex.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A5F0D46)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5B56E035)
+I (../Inc/main.h)(0x5B56E036)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030xc.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5A5F0D46)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5A5F0D45)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_iwdg.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5A5F0D46)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc.c)(0x5C99AC57)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\stm32f0xx_hal_rtc.o --omf_browse electric_cars_iot\stm32f0xx_hal_rtc.crf --depend electric_cars_iot\stm32f0xx_hal_rtc.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A5F0D46)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5B56E035)
+I (../Inc/main.h)(0x5B56E036)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030xc.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5A5F0D46)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5A5F0D45)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_iwdg.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5A5F0D46)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rtc_ex.c)(0x5A5F0D46)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\stm32f0xx_hal_rtc_ex.o --omf_browse electric_cars_iot\stm32f0xx_hal_rtc_ex.crf --depend electric_cars_iot\stm32f0xx_hal_rtc_ex.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A5F0D46)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5B56E035)
+I (../Inc/main.h)(0x5B56E036)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030xc.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5A5F0D46)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5A5F0D45)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_iwdg.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5A5F0D46)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_iwdg.c)(0x5A5F0D46)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\stm32f0xx_hal_iwdg.o --omf_browse electric_cars_iot\stm32f0xx_hal_iwdg.crf --depend electric_cars_iot\stm32f0xx_hal_iwdg.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A5F0D46)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5B56E035)
+I (../Inc/main.h)(0x5B56E036)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030xc.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5A5F0D46)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5A5F0D45)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_iwdg.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5A5F0D46)
+F (..\HARDWARE\USART\usart.c)(0x5D3820D5)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\usart.o --omf_browse electric_cars_iot\usart.crf --depend electric_cars_iot\usart.d)
+I (..\HARDWARE\USART\usart.h)(0x5D2E9FDD)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A5F0D46)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5B56E035)
+I (../Inc/main.h)(0x5B56E036)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030xc.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5A5F0D46)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_iwdg.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5A5F0D46)
+I (..\HARDWARE\queen\queen.h)(0x5D2EA027)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (..\CONTROL\Control_interface.h)(0x5B3DB724)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\HARDWARE\IoT_Hub\IoT_Hub.h)(0x5D2E9EAF)
+F (..\HARDWARE\GPIO\GPIO.c)(0x5D2D70D7)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\gpio.o --omf_browse electric_cars_iot\gpio.crf --depend electric_cars_iot\gpio.d)
+I (..\HARDWARE\GPIO\gpio.h)(0x5D2D666C)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A5F0D46)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5B56E035)
+I (../Inc/main.h)(0x5B56E036)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030xc.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5A5F0D46)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5A5F0D45)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_iwdg.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5A5F0D46)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (..\HARDWARE\EXTI\exti.h)(0x5CABF9FF)
+F (..\HARDWARE\ADC\adc.c)(0x5CF8D916)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\adc.o --omf_browse electric_cars_iot\adc.crf --depend electric_cars_iot\adc.d)
+I (..\HARDWARE\ADC\adc.h)(0x5C8092DB)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A5F0D46)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5B56E035)
+I (../Inc/main.h)(0x5B56E036)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030xc.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5A5F0D46)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5A5F0D45)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_iwdg.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5A5F0D46)
+F (..\HARDWARE\EXTI\exti.c)(0x5CAB0822)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\exti.o --omf_browse electric_cars_iot\exti.crf --depend electric_cars_iot\exti.d)
+I (..\HARDWARE\EXTI\exti.h)(0x5CABF9FF)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A5F0D46)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5B56E035)
+I (../Inc/main.h)(0x5B56E036)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030xc.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5A5F0D46)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5A5F0D45)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_iwdg.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5A5F0D46)
+F (..\HARDWARE\VOICE\voice.c)(0x5CEF55B5)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\voice.o --omf_browse electric_cars_iot\voice.crf --depend electric_cars_iot\voice.d)
+I (..\HARDWARE\VOICE\voice.h)(0x5CC7BD65)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A5F0D46)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5B56E035)
+I (../Inc/main.h)(0x5B56E036)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030xc.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5A5F0D46)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5A5F0D45)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_iwdg.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5A5F0D46)
+I (..\HARDWARE\IoT_Hub\IoT_Hub.h)(0x5D2E9EAF)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\HARDWARE\USART\usart.h)(0x5D2E9FDD)
+I (..\HARDWARE\GPIO\gpio.h)(0x5D2D666C)
+F (..\HARDWARE\flash\flash.c)(0x5D3AC06B)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\flash.o --omf_browse electric_cars_iot\flash.crf --depend electric_cars_iot\flash.d)
+I (..\HARDWARE\flash\flash.h)(0x5C9DE991)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A5F0D46)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5B56E035)
+I (../Inc/main.h)(0x5B56E036)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030xc.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5A5F0D46)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5A5F0D45)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_iwdg.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5A5F0D46)
+I (..\HARDWARE\STMFLASH\stmflash.h)(0x5C839378)
+F (..\HARDWARE\queen\queen.c)(0x5D2E9C73)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\queen.o --omf_browse electric_cars_iot\queen.crf --depend electric_cars_iot\queen.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\HARDWARE\queen\queen.h)(0x5D2EA027)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A5F0D46)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5B56E035)
+I (../Inc/main.h)(0x5B56E036)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030xc.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5A5F0D46)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_iwdg.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5A5F0D46)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+F (..\HARDWARE\IoT_Hub\IoT_Hub.c)(0x5D2E9E71)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\iot_hub.o --omf_browse electric_cars_iot\iot_hub.crf --depend electric_cars_iot\iot_hub.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (..\HARDWARE\USART\usart.h)(0x5D2E9FDD)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A5F0D46)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5B56E035)
+I (../Inc/main.h)(0x5B56E036)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030xc.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5A5F0D46)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_iwdg.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5A5F0D46)
+I (..\HARDWARE\GPIO\gpio.h)(0x5D2D666C)
+I (..\HARDWARE\IoT_Hub\IoT_Hub.h)(0x5D2E9EAF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\PROTOCAL\protocol.h)(0x5D302666)
+I (..\HARDWARE\queen\queen.h)(0x5D2EA027)
+I (..\CONTROL\Control_app.h)(0x5CEB9FFA)
+I (..\CONTROL\Control_interface.h)(0x5B3DB724)
+F (..\HARDWARE\STMFLASH\stmflash.c)(0x5C839478)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\stmflash.o --omf_browse electric_cars_iot\stmflash.crf --depend electric_cars_iot\stmflash.d)
+I (..\HARDWARE\STMFLASH\stmflash.h)(0x5C839378)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A5F0D46)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5B56E035)
+I (../Inc/main.h)(0x5B56E036)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030xc.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5A5F0D46)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5A5F0D45)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_iwdg.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5A5F0D46)
+F (..\HARDWARE\EPROM\eprom.c)(0x5C872DBC)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\eprom.o --omf_browse electric_cars_iot\eprom.crf --depend electric_cars_iot\eprom.d)
+I (..\HARDWARE\EPROM\eprom.h)(0x5C872DCD)
+F (..\PROTOCAL\protocol.c)(0x5D1B0F9A)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\protocol.o --omf_browse electric_cars_iot\protocol.crf --depend electric_cars_iot\protocol.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A5F0D46)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5B56E035)
+I (../Inc/main.h)(0x5B56E036)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030xc.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5A5F0D46)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5A5F0D45)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_iwdg.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5A5F0D46)
+I (..\PROTOCAL\protocol.h)(0x5D302666)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (..\HARDWARE\USART\usart.h)(0x5D2E9FDD)
+I (..\HARDWARE\IoT_Hub\IoT_Hub.h)(0x5D2E9EAF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\CONTROL\control_app.h)(0x5CEB9FFA)
+I (..\CONTROL\Control_interface.h)(0x5B3DB724)
+I (..\HARDWARE\queen\queen.h)(0x5D2EA027)
+F (..\CONTROL\Control_app.c)(0x5D301F29)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\control_app.o --omf_browse electric_cars_iot\control_app.crf --depend electric_cars_iot\control_app.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A5F0D46)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5B56E035)
+I (../Inc/main.h)(0x5B56E036)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030xc.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5A5F0D46)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_iwdg.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5A5F0D46)
+I (..\PROTOCAL\protocol.h)(0x5D302666)
+I (..\CONTROL\control_app.h)(0x5CEB9FFA)
+I (..\CONTROL\Control_interface.h)(0x5B3DB724)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\HARDWARE\GPIO\gpio.h)(0x5D2D666C)
+I (..\HARDWARE\EXTI\exti.h)(0x5CABF9FF)
+I (..\HARDWARE\VOICE\voice.h)(0x5CC7BD65)
+I (..\HARDWARE\ADC\adc.h)(0x5C8092DB)
+I (..\HARDWARE\IoT_Hub\IoT_Hub.h)(0x5D2E9EAF)
+I (..\HARDWARE\USART\usart.h)(0x5D2E9FDD)
+I (..\HARDWARE\queen\queen.h)(0x5D2EA027)
+F (..\CONTROL\Control_interface.c)(0x5D301FB6)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\control_interface.o --omf_browse electric_cars_iot\control_interface.crf --depend electric_cars_iot\control_interface.d)
+I (..\CONTROL\Control_interface.h)(0x5B3DB724)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A5F0D46)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5B56E035)
+I (../Inc/main.h)(0x5B56E036)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030xc.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5A5F0D46)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5A5F0D45)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_iwdg.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5A5F0D46)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\CONTROL\control_app.h)(0x5CEB9FFA)
+I (..\PROTOCAL\protocol.h)(0x5D302666)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (..\HARDWARE\GPIO\gpio.h)(0x5D2D666C)
+I (..\HARDWARE\USART\usart.h)(0x5D2E9FDD)
+I (..\BLUETOOTH\bt_app.h)(0x5C74E807)
+I (..\HARDWARE\IoT_Hub\IoT_Hub.h)(0x5D2E9EAF)
+F (..\CONTROL\factory_test.c)(0x5D3025C2)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\factory_test.o --omf_browse electric_cars_iot\factory_test.crf --depend electric_cars_iot\factory_test.d)
+I (..\CONTROL\factory_test.h)(0x5D01E35C)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A5F0D46)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5B56E035)
+I (../Inc/main.h)(0x5B56E036)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030xc.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5A5F0D46)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5A5F0D45)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_iwdg.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5A5F0D46)
+I (..\HARDWARE\GPIO\gpio.h)(0x5D2D666C)
+I (..\HARDWARE\VOICE\voice.h)(0x5CC7BD65)
+I (..\HARDWARE\EXTI\exti.h)(0x5CABF9FF)
+I (..\CONTROL\Control_app.h)(0x5CEB9FFA)
+I (..\CONTROL\Control_interface.h)(0x5B3DB724)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\PROTOCAL\protocol.h)(0x5D302666)
+I (..\HARDWARE\IoT_Hub\IoT_Hub.h)(0x5D2E9EAF)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (..\HARDWARE\USART\usart.h)(0x5D2E9FDD)
+F (..\BLUETOOTH\bt_app.c)(0x5D3820F2)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\bt_app.o --omf_browse electric_cars_iot\bt_app.crf --depend electric_cars_iot\bt_app.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (..\BLUETOOTH\bt_app.h)(0x5C74E807)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A5F0D46)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5B56E035)
+I (../Inc/main.h)(0x5B56E036)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030xc.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5A5F0D46)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_iwdg.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5A5F0D46)
+I (..\CONTROL\Control_app.h)(0x5CEB9FFA)
+I (..\CONTROL\Control_interface.h)(0x5B3DB724)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\PROTOCAL\protocol.h)(0x5D302666)
+I (..\HARDWARE\EXTI\exti.h)(0x5CABF9FF)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x588B8344)
+I (..\HARDWARE\ADC\adc.h)(0x5C8092DB)
+I (..\HARDWARE\GPIO\gpio.h)(0x5D2D666C)
+I (..\HARDWARE\VOICE\voice.h)(0x5CC7BD65)
+I (..\HARDWARE\USART\usart.h)(0x5D2E9FDD)
+I (..\HARDWARE\IoT_Hub\IoT_Hub.h)(0x5D2E9EAF)
+F (..//Src/system_stm32f0xx.c)(0x5A5F0D46)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0 -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Drivers/CMSIS/Include -I ..\HARDWARE\USART -I ..\HARDWARE\IoT_Hub -I ..\HARDWARE\GPIO -I ..\PROTOCAL -I ..\HARDWARE\ADC -I ..\HARDWARE\EXTI -I ..\HARDWARE\VOICE -I ..\HARDWARE\KX023 -I ..\HARDWARE\flash -I ..\HARDWARE\BLUETOOTH -I ..\BLUETOOTH -I ..\CONTROL -I ..\HARDWARE\queen -I ..\HARDWARE\queen_ext -I ..\HARDWARE\STMFLASH --C99-I.\RTE\_electric_cars_iot-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F030xC -DUSE_HAL_DRIVER -DSTM32F030xC-o electric_cars_iot\system_stm32f0xx.o --omf_browse electric_cars_iot\system_stm32f0xx.crf --depend electric_cars_iot\system_stm32f0xx.d)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030xc.h)(0x5A5F0D45)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5A5F0D46)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5A5F0D46)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5A5F0D45)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A5F0D46)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5B56E035)
+I (../Inc/main.h)(0x5B56E036)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A5F0D46)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_iwdg.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rtc_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5A5F0D46)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5A5F0D46)

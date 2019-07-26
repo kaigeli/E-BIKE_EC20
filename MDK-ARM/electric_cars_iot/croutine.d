@@ -1,0 +1,15 @@
+electric_cars_iot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/croutine.c
+electric_cars_iot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+electric_cars_iot\croutine.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+electric_cars_iot\croutine.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+electric_cars_iot\croutine.o: ../Inc/FreeRTOSConfig.h
+electric_cars_iot\croutine.o: ../Inc/main.h
+electric_cars_iot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+electric_cars_iot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+electric_cars_iot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+electric_cars_iot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0/portmacro.h
+electric_cars_iot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+electric_cars_iot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+electric_cars_iot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+electric_cars_iot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h
+electric_cars_iot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
