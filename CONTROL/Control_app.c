@@ -523,8 +523,8 @@ void init_flash(void)
 {
 	read_flash(CONFIG_ADDR,(uint8_t*)&g_flash,(uint16_t)sizeof(flash_struct));
 	HAL_Delay(1);
-	Logln(D_INFO,"flag=%d,mode=%d,imei=%s,acc=%d,hall=%d,ld=%d,motot=%d,ld_a=%d,zd_a=%d,zd_se=%d,times=%d,gb_a=%d,gb_s=%d,lj=%d,cg=%d,%s:%d,size=%d",g_flash.flag,g_flash.mode,g_flash.imei,g_flash.acc,g_flash.hall,g_flash.lundong,
-		g_flash.motor,g_flash.ld_alarm,g_flash.zd_alarm,g_flash.zd_sen,g_flash.search_times,g_flash.gb_alarm,g_flash.gb_speed,g_flash.lunjing,g_flash.cigang,g_flash.net.domain, g_flash.net.port, sizeof(flash_struct));
+	Logln(D_INFO,"flag=%d,mode=%d,imei=%s,acc=%d,hall=%d,ld=%d,motot=%d,ld_a=%d,zd_a=%d,zd_se=%d,times=%d,gb_a=%d,gb_s=%d,lj=%d,cg=%d,%s:%d,vol=%d,size=%d",g_flash.flag,g_flash.mode,g_flash.imei,g_flash.acc,g_flash.hall,g_flash.lundong,
+		g_flash.motor,g_flash.ld_alarm,g_flash.zd_alarm,g_flash.zd_sen,g_flash.search_times,g_flash.gb_alarm,g_flash.gb_speed,g_flash.lunjing,g_flash.cigang,g_flash.net.domain, g_flash.net.port, g_flash.adc_vol,sizeof(flash_struct));
 		
 	if(g_flash.flag !=1)
 	{
@@ -545,6 +545,7 @@ void init_flash(void)
 		g_flash.gb_speed = 15;
 		g_flash.cigang = 46;
 		g_flash.lunjing = 14;
+		g_flash.adc_param = 3.3*34;
 		memset(g_flash.imei,0,sizeof(g_flash.imei));
 		strcpy(g_flash.net.domain, DOMAIN);
 		g_flash.net.port = PORT;
@@ -557,6 +558,15 @@ void init_flash(void)
 	{
 		open_electric_door();
 	}
+
+	if(g_flash.adc_param != 0)
+	{
+		adc_param = g_flash.adc_param;
+	}
+	else
+		adc_param = 3.3*34;
+
+	Logln(D_INFO,"%f,%f", g_flash.adc_param,adc_param);
 	
 	mileage_count = g_flash.hall;
 	rotate_count = g_flash.lundong;

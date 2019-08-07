@@ -6,7 +6,6 @@
 //#include "flash.h"
 #include "bt_app.h"
 #include "IoT_Hub.h"
-#include "Control_app.h"
 
 battery_info_struct curr_bat;
 
@@ -288,7 +287,7 @@ bool parse_control_cmd(uint8_t* buf, uint16_t len)
 			write_flash(CONFIG_ADDR, (uint8_t*)&g_flash,(uint16_t)sizeof(flash_struct));
 			Logln(D_INFO,"write imei=%s----OK",g_flash.imei);
 			flag = true;
-			bt_send_data(g_flash.imei, strlen(g_flash.imei));				//·¢ËÍIMEIºÅ¸øÀ¶ÑÀÐ¾Æ¬uart3£¬À¶ÑÀÐ¾Æ¬¸Ä±äÃû³ÆºÍµØÖ·
+			bt_send(g_flash.imei, strlen(g_flash.imei));				//·¢ËÍIMEIºÅ¸øÀ¶ÑÀÐ¾Æ¬uart3£¬À¶ÑÀÐ¾Æ¬¸Ä±äÃû³ÆºÍµØÖ·
 		//	HAL_Delay(1000);
 		//	reset_system();
 		}
@@ -299,9 +298,22 @@ bool parse_control_cmd(uint8_t* buf, uint16_t len)
 			Logln(D_INFO, "format flash OK........");
 			reset_system();
 		}
-		else if(strstr(buf,"factory test"))
-		{
+		else if(head = strstr(buf,"factory test"))
+		{			
+			Logln(D_INFO,"%s",buf);
+			if(strlen(head) >= strlen("factory test")+2)
+			{
+				head += strlen("factory test");
+				strncpy(req, head, 2);
+				g_flash.adc_vol = atoi(req);
+			}
+			else
+			{
+				g_flash.adc_vol = 0;
+			}
+
 			g_flash.mode = 1;
+			Logln(D_INFO, "Cali ADC=%d,mode=%d", g_flash.adc_vol,g_flash.mode);
 			write_flash(CONFIG_ADDR, (uint8_t*)&g_flash,(uint16_t)sizeof(flash_struct));
 			Logln(D_INFO, "factory test START");
 			reset_system();

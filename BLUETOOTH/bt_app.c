@@ -28,23 +28,23 @@ void bt_send(uint8_t*data, uint16_t len)
 
 uint32_t GetTimeStamp(void)
 {
-	  struct tm info;
-	  uint32_t sec;
-	  RTC_DateTypeDef sdatestructure;
-    RTC_TimeTypeDef stimestructure;
-	  
-	  HAL_RTC_GetTime(&hrtc, &stimestructure, RTC_FORMAT_BIN);
-		HAL_RTC_GetDate(&hrtc, &sdatestructure, RTC_FORMAT_BIN);
-	 	
-	  info.tm_year = 100 + sdatestructure.Year;
-	  info.tm_mon = sdatestructure.Month - 1;
-	  info.tm_mday = sdatestructure.Date;
-		info.tm_hour = stimestructure.Hours - 8;  //北京时间-8为UTC时间
-		info.tm_min = stimestructure.Minutes;
-		info.tm_sec = stimestructure.Seconds;
-	  sec = mktime(&info);   //sec就是秒数
-    
-		return sec;
+	struct tm info;
+	uint32_t sec;
+	RTC_DateTypeDef sdatestructure;
+	RTC_TimeTypeDef stimestructure;
+
+	HAL_RTC_GetTime(&hrtc, &stimestructure, RTC_FORMAT_BIN);
+	HAL_RTC_GetDate(&hrtc, &sdatestructure, RTC_FORMAT_BIN);
+		
+	info.tm_year = 100 + sdatestructure.Year;
+	info.tm_mon = sdatestructure.Month - 1;
+	info.tm_mday = sdatestructure.Date;
+	info.tm_hour = stimestructure.Hours - 8;  //北京时间-8为UTC时间
+	info.tm_min = stimestructure.Minutes;
+	info.tm_sec = stimestructure.Seconds;
+	sec = mktime(&info);   //sec就是秒数
+
+	return sec;
 }
 
 /*蓝牙发送接口*/
@@ -54,7 +54,7 @@ void bt_send_data(uint8_t* data,uint16_t len)
 	tmp[0]='F';
 	tmp[1]='1';
 	memcpy(tmp+2,data,len);
-	bt_send(data,len);
+	bt_send(tmp,len+2);
 }
 
 void bt_prepare_send_data(uint8_t operate, uint8_t param_len, uint8_t* param)
@@ -151,7 +151,7 @@ void read_data(uint8_t operate)
 void send_ok_cmd(uint8_t operate)
 {
 	//char param[6]={0}; 
-  uint8_t param[1]={0};
+  	uint8_t param[1]={0};
 	param[0] = 0;
 	bt_prepare_send_data(operate, 1, param);
 }

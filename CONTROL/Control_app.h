@@ -105,6 +105,8 @@ typedef struct
 	uint8_t lunjing;	//轮径
 	uint8_t cigang;	//磁钢片
 	uint8_t mode;	//0 正常模式 ,1测试模式
+	uint8_t adc_vol;
+	float adc_param;
 }flash_struct;
 	
 #pragma pack (1)

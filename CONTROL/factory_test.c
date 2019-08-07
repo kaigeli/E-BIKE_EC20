@@ -4,6 +4,7 @@
 #include "exti.h"
 #include "Control_app.h"
 #include "IoT_Hub.h"
+#include "adc.h"
 
 #define DIANMEN_TEST (44|0x80)
 #define KEY_DETECT_TEST (8|0x80)
@@ -114,6 +115,20 @@ void test_off_gsen(void)
 }
 void test_adc(void)
 {
+	float ave_vol;
+
+	Logln(D_INFO, "Vol=%d,adc_param=%f", get_bat_vol(),adc_param);
+
+	if(g_flash.adc_vol > 0)
+	{
+		ave_vol = (get_bat_vol()*4095)/(adc_param*100);
+		g_flash.adc_param = g_flash.adc_vol*4095/ave_vol;
+		adc_param = g_flash.adc_param;
+		Logln(D_INFO, "Vol=%d, ave_vol=%f, param=%f, cali vol=%d", g_flash.adc_vol, ave_vol, adc_param,get_bat_vol());	
+	}
+}
+void test_adc_off(void)
+{
 	uint8_t buf[50]={0};
 	uint16_t adc = get_bat_vol();
 
@@ -184,7 +199,7 @@ void test_bt_off(void)
 }
 void test_gps(void)
 {
-	Send_AT_Command_Timeout(AT_QGPS_GSV, 1);
+	Send_AT_Command_Timeout(AT_QGPSLOC, 1);
 }
 void test_again_gps(void)
 {
@@ -234,7 +249,7 @@ zt_factory_test_struct g_test_table[]=
 	{TEST_A, test_a_led, test_off_a_led,"A led",0},
 	{TEST_B, test_b_led, test_off_b_led,"B led",0},
 	{TEST_GSEN, NULL, test_off_gsen,"zhengdong",0},
-	{TEST_ADC, test_adc, NULL,"dianyuan",0},
+	{TEST_ADC, test_adc, test_adc_off,"dianyuan",0},
 	{TEST_KEY, test_key, NULL,"KEY",0},
 	{TEST_BT, test_bt, test_bt_off,"lanya",0},
 	{TEST_GSM,test_gsm, NULL,"GSM",0},
