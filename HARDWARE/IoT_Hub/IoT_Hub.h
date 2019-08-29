@@ -155,7 +155,7 @@ typedef struct
 	char lon[11];
 }cell_location_struct;
 
-void module_init(void);
+bool module_init(void);
 char* get_imei(void);
 char* get_imsi(void);
 void send_data(char* buf, int len);

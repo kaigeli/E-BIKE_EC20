@@ -390,3 +390,10 @@ bool parse_bt_cmd(int8_t* buf, uint16_t len)
 	return flag;
 }
 
+void bt_init(void)
+{
+	BT_RST_L;
+	HAL_Delay(200);
+	BT_RST_H;
+}
+

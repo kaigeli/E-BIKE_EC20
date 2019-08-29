@@ -49,7 +49,7 @@ AT_STRUCT at_pack[]={
 	{AT_W,"AT&W","OK",300,NULL},
 	{AT_ATS0,"ATS0=1",300,NULL},
 	{AT_CPIN,"AT+CPIN?","OK",300,NULL},
-	{AT_CREG,"AT+CREG?","0,1",500,NULL},
+	{AT_CREG,"AT+CREG?","0,1",1000,NULL},
 	{AT_CSQ,"AT+CSQ","OK",300,parse_csq_cmd},
 	{AT_GSN,"AT+GSN","OK",300,parse_imei_cmd},
 	{AT_CIMI,"AT+CIMI","OK",300,parse_imsi_cmd},
@@ -924,7 +924,7 @@ void gnss_init(void)
 	Send_AT_Command_Timeout(AT_QGPS_ON, 2);   	
 //	Send_AT_Command_Timeout(AT_QGNSSTS, 2); 	
 }
-void module_init(void)
+bool module_init(void)
 {
 	Logln(D_INFO, "IOT_module Start Init");
 
@@ -942,20 +942,15 @@ void module_init(void)
 	Send_AT_Command_Timeout(AT_CPIN, 5);
 	Send_AT_Command_Timeout(AT_GSN, 2);
 	Send_AT_Command_Timeout(AT_CIMI, 2);
-	Send_AT_Command_Timeout(AT_CREG, 20);
+	if(!Send_AT_Command_Timeout(AT_CREG, 30))return false;
 	gnss_init();	
-//	Send_AT_Command_Timeout(AT_QIMODE, 1);
 	Send_AT_Command_Timeout(AT_QICSGP, 2);     
-//	Send_AT_Command_Timeout(AT_QIREGAPP, 2);	
 	Send_AT_Command_Timeout(AT_QIACT, 5);		
 	Send_AT_Command_Timeout(AT_COPS, 2);
-	
-//	Send_AT_Command_Timeout(AT_QIFGCNT1, 2);     
-//	Send_AT_Command_Timeout(AT_QIDNSIP, 2);
 
-	Logln(D_INFO,"Init Complete");
-
+	return true;
 }
+
 void at_connect_service(void)
 {
 	int8_t i = GetATIndex(AT_QIOPEN);
@@ -996,8 +991,10 @@ void at_process(void)
 		MODULE_PWRON();
 		HAL_Delay(8000);
 		gsm_led_flag = 1;
-		module_init();
-		net_work_state = EN_CONNECT_STATE;
+		if(module_init())
+			net_work_state = EN_CONNECT_STATE;
+		else
+			net_work_state = EN_INIT_STATE;
 	}
 	else if(net_work_state==EN_CONNECT_STATE)
 	{

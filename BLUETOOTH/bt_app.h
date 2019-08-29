@@ -24,4 +24,5 @@ typedef struct
 
 #pragma pack ()
 
+extern void bt_init(void);
 #endif

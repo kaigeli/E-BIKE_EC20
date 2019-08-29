@@ -23,6 +23,8 @@
 #define 	read_acc_det 				HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_3)
 #define  	gps_led_on 				HAL_GPIO_WritePin(GPIOA, GPIO_PIN_11, GPIO_PIN_SET)
 #define  	gps_led_off  				HAL_GPIO_WritePin(GPIOA, GPIO_PIN_11, GPIO_PIN_RESET)
+#define  	BT_RST_H 				HAL_GPIO_WritePin(GPIOB, GPIO_PIN_2, GPIO_PIN_SET)
+#define  	BT_RST_L  				HAL_GPIO_WritePin(GPIOB, GPIO_PIN_2, GPIO_PIN_RESET)
 
 extern uint8_t flag_lock, f_motorlock,gsm_led_flag,gps_led_flag;
 extern uint8_t flag_delay_lock, flag_delay_unlock, flag_batlock, flag_motorlock, flag_motorlock2;

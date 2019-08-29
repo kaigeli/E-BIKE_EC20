@@ -127,6 +127,11 @@ void StartTask02(void const * argument);
 
 /* USER CODE BEGIN 0 */
 void delay_us(uint32_t n_10us);
+void init_all(void)
+{
+	init_flash();
+ 	bt_init();
+}
 /* USER CODE END 0 */
 
 /**
@@ -151,7 +156,8 @@ int main(void)
   MX_TIM14_Init();
   MX_IWDG_Init();
   MX_RTC_Init();
-  init_flash();
+  
+  init_all();
   
   osThreadDef(defaultTask, StartDefaultTask, osPriorityNormal, 0, 2048);
   defaultTaskHandle = osThreadCreate(osThread(defaultTask), NULL);
